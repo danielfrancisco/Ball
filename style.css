@@ -1,0 +1,46 @@
+body {
+  background-color: black;
+}
+
+@keyframes upDown {
+  0%, 100% {
+    top: 30px;
+  }
+  50% {
+    top: 230px;
+    height: 40px;
+    width: 62px;
+  }
+}
+@keyframes shadow {
+  0%, 100% {
+    width: 50px;
+  }
+  50% {
+    width: 55px;
+  }
+}
+#ball {
+  position: relative;
+  left: 550px;
+  top: 30px;
+  background-color: #5cff5c;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px #5cff5c, 0 0 30px #5cff5c;
+  animation: upDown 1s linear infinite;
+  z-index: 1;
+}
+
+#shadow {
+  position: relative;
+  top: 265px;
+  left: 560px;
+  position: absolute;
+  border-radius: 50%;
+  background-color: #303030;
+  height: 20px;
+  width: 50px;
+  animation: shadow 1s linear infinite;
+}/*# sourceMappingURL=style.css.map */
