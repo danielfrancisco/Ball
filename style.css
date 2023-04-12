@@ -8,8 +8,8 @@ body {
   }
   50% {
     top: 430px;
-    height: 40px;
-    width: 62px;
+    height: 39px;
+    width: 63px;
   }
 }
 @keyframes shadow {
@@ -29,7 +29,7 @@ body {
   width: 50px;
   border-radius: 50%;
   box-shadow: 0 0 10px #5cff5c, 0 0 30px #5cff5c;
-  animation: upDown 1.1s linear infinite;
+  animation: upDown 1.2s ease infinite;
   z-index: 1;
 }
 
@@ -42,5 +42,5 @@ body {
   background-color: #303030;
   height: 20px;
   width: 50px;
-  animation: shadow 1.1s linear infinite;
+  animation: shadow 1.2s ease infinite;
 }/*# sourceMappingURL=style.css.map */
