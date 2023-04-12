@@ -7,7 +7,7 @@ body {
     top: 30px;
   }
   50% {
-    top: 230px;
+    top: 430px;
     height: 40px;
     width: 62px;
   }
@@ -22,25 +22,25 @@ body {
 }
 #ball {
   position: relative;
-  left: 550px;
+  left: 610px;
   top: 30px;
   background-color: #5cff5c;
   height: 50px;
   width: 50px;
   border-radius: 50%;
   box-shadow: 0 0 10px #5cff5c, 0 0 30px #5cff5c;
-  animation: upDown 1s linear infinite;
+  animation: upDown 1.1s linear infinite;
   z-index: 1;
 }
 
 #shadow {
   position: relative;
-  top: 265px;
-  left: 560px;
+  top: 465px;
+  left: 620px;
   position: absolute;
   border-radius: 50%;
   background-color: #303030;
   height: 20px;
   width: 50px;
-  animation: shadow 1s linear infinite;
+  animation: shadow 1.1s linear infinite;
 }/*# sourceMappingURL=style.css.map */
